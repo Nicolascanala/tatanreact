@@ -72,6 +72,10 @@ const Li = styled.li`
     padding: 12px;
     margin-left: -15px;
     margin-bottom: 5px;
+
+    @media screen and (max-width: 380px) {
+        margin-left: -30px;
+    }
 `
 
 const A = styled.a`
@@ -91,11 +95,11 @@ const Hamburger = (props) => {
     {props.open && (
         <DropDown>
             <Ul>
-                <Li><A href='/'>Flora y Fauna</A></Li>
-                <Li><A href='/paisajes'>Paisajes Magicos</A></Li>
-                <Li><A href='/sesiones'>Sesiones</A></Li>
-                <Li><A href='/tarifas'>Tarifas</A></Li>
-                <Li><A href='/contacto'>Contacto</A></Li>
+                <Li><A href='/tatanreact/'>Flora y Fauna</A></Li>
+                <Li><A href='/tatanreact/paisajes'>Paisajes Magicos</A></Li>
+                <Li><A href='/tatanreact/sesiones'>Sesiones</A></Li>
+                <Li><A href='/tatanreact/tarifas'>Tarifas</A></Li>
+                <Li><A href='/tatanreact/contacto'>Contacto</A></Li>
             </Ul>
         </DropDown>
     )}
