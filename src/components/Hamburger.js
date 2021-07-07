@@ -55,10 +55,12 @@ const DropDown = styled.div`
 
     @media screen and (max-width: 380px) {
         margin-left: 190px;
+        margin-top: 30px;
     }
 
     @media screen and (max-width: 330px) {
         margin-left: 180px;
+        margin-top: 20px;
     }
 `
 
