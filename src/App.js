@@ -25,19 +25,19 @@ function App() {
     <Wrapper>
       <NavBar />
         <Switch>
-        <Route exact path='/'>
+        <Route exact path='/tatanreact'>
             <Flora open={open} setOpen={setOpen}/>
         </Route>
-        <Route path='/paisajes'>
+        <Route path='/tatanreact/paisajes'>
           <Paisajes />
         </Route>
-        <Route path='/sesiones'>
+        <Route path='/tatanreact/sesiones'>
           <Sesiones />
         </Route>
-        <Route path='/tarifas'>
+        <Route path='/tatanreact/tarifas'>
           <Tarifas />
         </Route>
-        <Route path='/contacto'>
+        <Route path='/tatanreact/contacto'>
           <Contacto />
         </Route>
         </Switch>

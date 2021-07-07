@@ -84,16 +84,16 @@ const NavBar = () => {
     return (
         <Header>
             <LogoImg src={Logo} />
-            <Title href='/'>TATAN GONZALEZ</Title>
+            <Title href='/tatanreact'>TATAN GONZALEZ</Title>
             {!matches ? <Hamburger open={open} setOpen={setOpen} /> :
             <Nav>
                 <p style={{position: 'absolute', color: 'white', top: 75, left: 260, fontStyle: 'italic'}}>- Fotografia y Naturaleza</p>
                 <Ul>
-                    <Li><LINK tag='flora' href='/'>Flora y Fauna</LINK></Li>
-                    <Li><LINK tag='paisajes' href='/paisajes'>Paisajes Magicos</LINK></Li>
-                    <Li><LINK tag='sesiones' href='/sesiones'>Sesiones</LINK></Li>
-                    <Li><LINK tag='tarifas' href='/tarifas'>Tarifas</LINK></Li>
-                    <Li><LINK tag='contacto' href='/contacto'>Contacto</LINK></Li>
+                    <Li><LINK tag='flora' href='/tatanreact'>Flora y Fauna</LINK></Li>
+                    <Li><LINK tag='paisajes' href='/tatanreact/paisajes'>Paisajes Magicos</LINK></Li>
+                    <Li><LINK tag='sesiones' href='/tatanreact/sesiones'>Sesiones</LINK></Li>
+                    <Li><LINK tag='tarifas' href='/tatanreact/tarifas'>Tarifas</LINK></Li>
+                    <Li><LINK tag='contacto' href='/tatanreact/contacto'>Contacto</LINK></Li>
                 </Ul>
             </Nav>}
         </Header>
